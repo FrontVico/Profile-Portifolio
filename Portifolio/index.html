@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Vinícius Ramos Amorim, desenvolvedor com foco atual em Java, Spring Boot e aplicações web."
+    />
+    <meta
+      name="keywords"
+      content="Vinícius Ramos, desenvolvedor Java, Spring Boot, backend, full stack, JavaScript, React Native, portfólio"
+    />
+    <meta name="author" content="Vinícius Ramos Amorim" />
+    <meta name="theme-color" content="#0b0c0f" />
+    <meta property="og:title" content="Vinícius Ramos — Desenvolvedor Java & Web" />
+    <meta
+      property="og:description"
+      content="Projetos, conhecimentos e trajetória de um desenvolvedor em formação com foco no ecossistema Java."
+    />
+    <meta property="og:type" content="website" />
+    <title>Vinícius Ramos — Desenvolvedor Java & Web</title>
+    <link rel="icon" href="./assets/icons/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script type="module" src="./assets/js/main.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="Navegação principal">
+        <a class="brand" href="#home" aria-label="Ir para o início">
+          <span class="brand-mark" aria-hidden="true">VR</span>
+          <span class="brand-copy">
+            <strong>Vinícius Ramos</strong>
+            <small>Java & Web Developer</small>
+          </span>
+        </a>
+
+        <div class="nav-panel" id="nav-panel">
+          <ul class="nav-links">
+            <li><a class="nav-link active" href="#home">Início</a></li>
+            <li><a class="nav-link" href="#about">Sobre</a></li>
+            <li><a class="nav-link" href="#projects">Projetos</a></li>
+            <li><a class="nav-link" href="#skills">Conhecimentos</a></li>
+            <li><a class="nav-link" href="#contact">Contato</a></li>
+          </ul>
+          <a class="nav-cta" href="https://github.com/FrontVico" target="_blank" rel="noreferrer">
+            GitHub
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 17 17 7M8 7h9v9" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="icon-button theme-toggle" type="button" aria-label="Alternar tema">
+            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4" />
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41" />
+            </svg>
+            <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20.5 14.1A8.5 8.5 0 0 1 9.9 3.5 8.5 8.5 0 1 0 20.5 14.1Z" />
+            </svg>
+          </button>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="nav-panel"
+          >
+            <span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+        <div class="hero-grid container">
+          <div class="hero-copy reveal">
+            <div class="availability">
+              <span class="availability-dot" aria-hidden="true"></span>
+              Aberto a oportunidades em tecnologia
+            </div>
+            <p class="eyebrow">Engenharia da Computação · Sorocaba, SP</p>
+            <h1 id="hero-title">
+              Desenvolvo soluções entre
+              <span>código, interface e dados.</span>
+            </h1>
+            <p class="hero-intro">
+              Minha base começou no front-end e hoje meu foco está no ecossistema
+              <strong>Java</strong>, criando uma visão mais completa de produto — do que o usuário vê
+              à lógica que faz tudo funcionar.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">
+                Explorar projetos
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" /></svg>
+              </a>
+              <a
+                class="button button-secondary"
+                href="https://www.linkedin.com/in/frontvico/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver LinkedIn
+              </a>
+            </div>
+            <ul class="hero-stack" aria-label="Principais tecnologias">
+              <li>Java</li>
+              <li>Spring Boot</li>
+              <li>JavaScript</li>
+              <li>React Native</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Apresentação visual de Vinícius Ramos">
+            <div class="portrait-frame">
+              <span class="portrait-index">01 / PROFILE</span>
+              <div class="portrait-orbit portrait-orbit-one" aria-hidden="true"></div>
+              <div class="portrait-orbit portrait-orbit-two" aria-hidden="true"></div>
+              <img src="./assets/images/eu.png" alt="Retrato de Vinícius Ramos" />
+            </div>
+            <div class="code-card" aria-hidden="true">
+              <div class="code-card-bar">
+                <span></span><span></span><span></span>
+                <small>Perfil.java</small>
+              </div>
+              <pre>
+                <code>
+                  <span class="code-keyword">public class</span> Perfil {
+                  String foco = <span class="code-string">"Java"</span>;
+                  String base = <span class="code-string">"Web"</span>;
+                  boolean evoluindo = <span class="code-keyword">true</span>;
+              }</code>
+            </pre>
+            </div>
+          </div>
+        </div>
+        <div class="hero-line" aria-hidden="true"></div>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="section-heading reveal">
+            <p class="section-number">01 — SOBRE</p>
+            <h2 id="about-title">Não limitado a uma única camada.</h2>
+          </div>
+          <div class="about-content reveal">
+            <p class="about-lead">
+              Sou Vinícius Ramos Amorim, desenvolvedor em formação e estudante de
+              Engenharia da Computação na Uniso.
+            </p>
+            <div class="about-columns">
+              <p>
+                Comecei criando experiências web responsivas com HTML, CSS e JavaScript.
+                Essa base visual continua comigo, mas minha evolução hoje está direcionada a
+                Java, orientação a objetos, APIs e aplicações com Spring Boot.
+              </p>
+              <p>
+                Já desenvolvi projetos independentes por indicação e busco uma oportunidade
+                para transformar aprendizado em software útil, bem estruturado e com impacto
+                real. Gosto de entender o problema inteiro antes de escolher a tecnologia.
+              </p>
+            </div>
+            <div class="about-facts">
+              <article>
+                <span>Formação técnica</span>
+                <strong>Desenvolvimento de Sistemas</strong>
+                <small>ETEC Dr. Nelson Alves Vianna</small>
+              </article>
+              <article>
+                <span>Graduação</span>
+                <strong>Engenharia da Computação</strong>
+                <small>Universidade de Sorocaba — Uniso</small>
+              </article>
+              <article>
+                <span>Direção atual</span>
+                <strong>Java & desenvolvimento completo</strong>
+                <small>Backend, APIs, web e mobile</small>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <p class="section-number">02 — PROJETOS</p>
+              <h2 id="projects-title">Código que registra minha evolução.</h2>
+            </div>
+            <p>
+              Projetos selecionados do GitHub, do estudo dos fundamentos em Java a uma
+              aplicação full stack para transporte universitário.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card project-card-featured reveal">
+              <div class="project-visual vancontrol-visual" aria-hidden="true">
+                <div class="route-map">
+                  <svg viewBox="0 0 520 260" preserveAspectRatio="none">
+                    <path d="M40 205C130 150 135 45 245 70s105 145 235 80" />
+                  </svg>
+                </div>
+                <div class="project-symbol">VC</div>
+                <div class="project-window">
+                  <span></span><span></span><span></span>
+                  <strong>API + MOBILE</strong>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="project-meta"><span>Projeto Integrador</span><span>Full stack</span></div>
+                <h3>VanControl</h3>
+                <p>
+                  Plataforma para gestão de transporte universitário com perfis de passageiro,
+                  motorista e administrador. Reúne autenticação JWT, rotas, viagens, veículos e
+                  pagamentos em uma API Spring Boot conectada a um aplicativo React Native.
+                </p>
+                <ul class="tags" aria-label="Tecnologias do VanControl">
+                  <li>Java 21</li><li>Spring Boot</li><li>PostgreSQL</li><li>JWT</li><li>React Native</li><li>Expo</li>
+                </ul>
+                <a
+                  class="project-link"
+                  href="https://github.com/FrontVico/Projeto-Integrador-3"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Ver o projeto VanControl no GitHub"
+                >
+                  Ver repositório
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-visual java-time-visual" aria-hidden="true">
+                <span class="visual-label">JAVA.TIME</span>
+                <div class="calendar-code">LocalDate<br />LocalTime<br />Duration</div>
+              </div>
+              <div class="project-body">
+                <div class="project-meta"><span>Estudos Java</span><span>Data e hora</span></div>
+                <h3>Date & Time Lab</h3>
+                <p>
+                  Exercícios práticos com a API <code>java.time</code>: cálculos de expediente,
+                  banco de horas, formatação de datas, fusos, períodos e duração.
+                </p>
+                <ul class="tags"><li>Java</li><li>LocalDate</li><li>LocalTime</li><li>Duration</li></ul>
+                <a
+                  class="project-link"
+                  href="https://github.com/FrontVico/Quinto-Projeto-Alura-Java"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Ver o projeto Date & Time Lab no GitHub"
+                >
+                  Ver repositório
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-visual streams-visual" aria-hidden="true">
+                <span class="visual-label">COLLECTIONS</span>
+                <div class="stream-pipeline"><span>List</span><i>→</i><span>filter</span><i>→</i><span>reduce</span></div>
+                <div class="stream-result">[7.5, 8.0, 9.0]</div>
+              </div>
+              <div class="project-body">
+                <div class="project-meta"><span>Estudos Java</span><span>Dados</span></div>
+                <h3>Collections & Streams</h3>
+                <p>
+                  Coleção de desafios com List, Set, Map e Stream API, aplicando operações de
+                  filtro, transformação, ordenação, agregação e redução de dados.
+                </p>
+                <ul class="tags"><li>Java</li><li>Collections</li><li>Streams</li><li>Lambda</li></ul>
+                <a
+                  class="project-link"
+                  href="https://github.com/FrontVico/Sexto-Projeto-Alura-Java"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Ver o projeto Collections & Streams no GitHub"
+                >
+                  Ver repositório
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-visual oop-visual" aria-hidden="true">
+                <span class="visual-label">ORIENTAÇÃO A OBJETOS</span>
+                <div class="class-card"><small>class</small><strong>Produto</strong><span>+ calcularTotal()</span></div>
+                <div class="class-card class-card-secondary"><small>class</small><strong>Compra</strong><span>+ adicionarItem()</span></div>
+              </div>
+              <div class="project-body">
+                <div class="project-meta"><span>Estudos Java</span><span>POO</span></div>
+                <h3>Fundamentos de Objetos</h3>
+                <p>
+                  Exercícios de modelagem usando classes, objetos, atributos, métodos e
+                  ArrayList em exemplos de estoque, livros, funcionários, tarefas e compras.
+                </p>
+                <ul class="tags"><li>Java</li><li>Classes</li><li>Métodos</li><li>ArrayList</li></ul>
+                <a
+                  class="project-link"
+                  href="https://github.com/FrontVico/Setimo-Projeto-Alura-Java"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Ver o projeto Fundamentos de Objetos no GitHub"
+                >
+                  Ver repositório
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <p class="section-number">03 — CONHECIMENTOS</p>
+              <h2 id="skills-title">Uma base visual. Um foco cada vez mais completo.</h2>
+            </div>
+            <p>
+              Meu repertório combina construção de interfaces, lógica de programação e
+              fundamentos de backend — com Java ocupando o centro do aprendizado atual.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-panel skill-panel-focus reveal">
+              <div class="skill-panel-top">
+                <span>Foco atual</span>
+                <strong class="java-mark">J</strong>
+              </div>
+              <h3>Ecossistema Java</h3>
+              <p>
+                Evolução contínua em orientação a objetos, collections, streams, manipulação
+                de datas e construção de APIs com Spring Boot.
+              </p>
+              <ul class="skill-list">
+                <li><span>01</span> Java & POO</li>
+                <li><span>02</span> Spring Boot & API REST</li>
+                <li><span>03</span> JPA, PostgreSQL & segurança</li>
+                <li><span>04</span> Maven, Git & boas práticas</li>
+              </ul>
+            </article>
+
+            <div class="skill-panels-secondary">
+              <article class="skill-panel reveal">
+                <div class="skill-panel-top"><span>Base web</span><strong>&lt;/&gt;</strong></div>
+                <h3>Front-end</h3>
+                <p>Interfaces responsivas, acessíveis e interativas para web.</p>
+                <ul class="tags tags-large"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Tailwind</li></ul>
+              </article>
+              <article class="skill-panel reveal">
+                <div class="skill-panel-top"><span>Aplicações</span><strong>↗</strong></div>
+                <h3>Mobile & ferramentas</h3>
+                <p>Experiência em projetos móveis e no fluxo de desenvolvimento.</p>
+                <ul class="tags tags-large"><li>React Native</li><li>Expo</li><li>GitHub</li><li>SQL</li></ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-shell reveal">
+          <div>
+            <p class="section-number">04 — CONTATO</p>
+            <h2 id="contact-title">Vamos construir algo que funcione de verdade?</h2>
+            <p>
+              Estou disponível para oportunidades de estágio, projetos e boas conversas sobre
+              desenvolvimento. Se meu perfil combina com o que você procura, fale comigo.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="contact-primary" href="mailto:ramosvinicius987@gmail.com">
+              <span>
+                <small>E-mail</small>
+                ramosvinicius987@gmail.com
+              </span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>
+            </a>
+            <div class="contact-links">
+              <a
+                href="https://api.whatsapp.com/send?phone=5515996788811&text=Ol%C3%A1%2C%20Vin%C3%ADcius!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar."
+                target="_blank"
+                rel="noreferrer"
+              >WhatsApp</a>
+              <a href="https://github.com/FrontVico" target="_blank" rel="noreferrer">GitHub</a>
+              <a
+                href="https://www.linkedin.com/in/frontvico/"
+                target="_blank"
+                rel="noreferrer"
+              >LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="current-year"></span> Vinícius Ramos Amorim</p>
+        <p>Desenvolvido com HTML, CSS e JavaScript.</p>
+        <a href="#top">Voltar ao topo ↑</a>
+      </div>
+    </footer>
+
+    <a class="back-to-top" href="#top" aria-label="Voltar ao topo">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 15 6-6 6 6" /></svg>
+    </a>
+  </body>
+</html>
