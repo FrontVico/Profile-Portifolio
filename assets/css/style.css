@@ -639,7 +639,6 @@ html[data-theme="light"] .moon-icon {
 
 .code-card pre {
   overflow: hidden;
-  padding: 22px;
   font-family: "DM Mono", monospace;
   font-size: 11px;
   line-height: 1.9;
